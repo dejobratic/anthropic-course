@@ -3,6 +3,9 @@ name = "anthropic-course"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.116.0",
     "dotenv>=0.9.9",
     "ipykernel>=7.3.0",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
 ]
