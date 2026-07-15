@@ -14,7 +14,7 @@ def add_assistant_message(messages: list[MessageParam], text: str) -> None:
 
 def chat(
     messages: list[MessageParam],
-    model: str = "claude-sonnet-4-6",
+    model: str = "claude-sonnet-5",
     max_tokens: int = 1000,
     system: str | Omit = omit,
 ) -> str:
