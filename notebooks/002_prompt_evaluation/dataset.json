@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for database credentials and CloudWatch logging enabled",
+    "format": "json",
+    "solution_criteria": "Must include valid Lambda configuration with handler, runtime, environment variables section, and IAM role reference. Should be valid JSON that can be directly used in CloudFormation or SAM templates. Validate against AWS Lambda configuration schema."
+  },
+  {
+    "task": "Write a Python function that validates AWS IAM policy JSON documents by checking for required fields (Effect, Action, Resource) and ensuring Effect values are only 'Allow' or 'Deny'. Return True if valid, False otherwise.",
+    "format": "python",
+    "solution_criteria": "Function must handle nested policy statements, return boolean result within O(n) time complexity where n is number of statements, and gracefully handle malformed JSON input without raising exceptions."
+  },
+  {
+    "task": "Create a regular expression pattern that matches valid AWS S3 bucket names according to AWS naming rules: 3-63 characters, lowercase letters, numbers, hyphens only, must start and end with letter or number, no consecutive hyphens",
+    "format": "regex",
+    "solution_criteria": "Pattern must match all valid bucket names and reject all invalid ones. Should use efficient regex syntax without excessive backtracking. Must pass test cases including edge cases like 'a', 'my-bucket-123', and reject 'My-Bucket', '-invalid', 'bucket--name'."
+  }
+]
