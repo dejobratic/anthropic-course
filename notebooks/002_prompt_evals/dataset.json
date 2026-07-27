@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse AWS CloudWatch log entries and extract all error codes in the format 'ERROR: [CODE]' where CODE is alphanumeric",
+    "format": "regex",
+    "solution_criteria": "Regex must correctly match ERROR codes with 4-8 alphanumeric characters, capture only the code portion (not the ERROR prefix), and avoid false positives from similar patterns in log messages"
+  },
+  {
+    "task": "Write a Python function that accepts an AWS S3 object key path and returns a dictionary with parsed components: bucket, prefix, and filename. Example: 's3://my-bucket/logs/2024/file.txt' should return {bucket: 'my-bucket', prefix: 'logs/2024', filename: 'file.txt'}",
+    "format": "python",
+    "solution_criteria": "Function must handle edge cases (trailing slashes, no prefix, no filename extension), execute in O(n) time complexity where n is key length, and not use regex or external libraries"
+  },
+  {
+    "task": "Create a JSON CloudFormation template snippet for an AWS Lambda IAM execution role that grants permissions to write logs to CloudWatch and read from a specific S3 bucket named 'data-bucket'",
+    "format": "json",
+    "solution_criteria": "JSON must be valid CloudFormation syntax, follow AWS best practices by using least-privilege IAM permissions, include both CloudWatch Logs and S3 actions, and use proper ARN formatting"
+  }
+]
