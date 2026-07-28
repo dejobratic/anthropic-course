@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "75 kg",
+      "goal": "Marathon training - carbohydrate loading and recovery nutrition for 4000+ daily calorie needs",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4000+ calories with macronutrient emphasis on carbohydrates (55-60% of total)",
+      "Includes 4-5 meals/snacks distributed throughout the day with pre/post-workout nutrition timing",
+      "Presented in compact, concise format suitable for single athlete"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4000+ daily calories with emphasis on carbohydrate loading and recovery nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle mass through strength training with high protein intake",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 4-5 meals distributed throughout the day",
+      "Total daily protein is 150g or higher with protein distributed across all meals (minimum 25g per meal)",
+      "Macronutrient ratios align with strength training needs (approximately 30-35% protein, 40-45% carbohydrates, 25-30% fat)",
+      "Plan is presented in compact, concise format suitable for quick reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a strength-training athlete (weightlifter) needing high protein intake (150g+) distributed across meals for muscle synthesis with specific macro ratios"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "High-performance swimming training with 2 sessions (morning 6am, evening 5pm) requiring optimal energy and hydration",
+      "restrictions": "Lactose intolerant, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with 4-5 meals timed strategically around training windows (pre-swim, post-swim)",
+      "Includes hydration strategy with specific fluid recommendations for swimming sessions",
+      "All meals are quick-digesting and compact, avoiding heavy foods before water training",
+      "Respects all dietary restrictions (no dairy, no nuts) while maintaining nutritional balance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a sport-specific athlete (swimmer) requiring balanced hydration strategies and quick-digesting meals around training windows with timing considerations for performance"
+  }
+]
